@@ -5,7 +5,7 @@ TypeScript は JavaScript のスーパーセットであり、`for` 文も基本
 
 ---
 
-## 基本の for 文
+## ✅基本の for 文
 
 ```ts
 for (let i = 0; i < 5; i++) {
@@ -20,7 +20,7 @@ for (let i = 0; i < 5; i++) {
 
 ---
 
-## 配列に対する for 文
+## ✅配列に対する for 文
 
 ```ts
 const fruits: string[] = ['apple', 'banana', 'orange'];
@@ -35,7 +35,7 @@ for (let i = 0; i < fruits.length; i++) {
 
 ---
 
-## for...of 文（値に対するループ）
+## ✅for...of 文（値に対するループ）
 
 ```ts
 const numbers: number[] = [10, 20, 30];
@@ -50,7 +50,7 @@ for (const num of numbers) {
 
 ---
 
-## for...in 文（キーに対するループ）
+## ✅for...in 文（キーに対するループ）
 
 ```ts
 const person = {
@@ -68,7 +68,7 @@ for (const key in person) {
 
 ---
 
-## 配列の forEach を使ったループ
+## ✅配列の forEach を使ったループ
 
 ```ts
 const colors: string[] = ['red', 'green', 'blue'];
@@ -83,7 +83,7 @@ colors.forEach((color, index) => {
 
 ---
 
-## 型の明示（Type Annotation）の例
+## ✅型の明示（Type Annotation）の例
 
 ```ts
 const scores: number[] = [80, 90, 100];
@@ -98,7 +98,7 @@ for (let i: number = 0; i < scores.length; i++) {
 
 ---
 
-## 補足：for 文で使える制御文
+## ✅補足：for 文で使える制御文
 
 - `break`：ループを途中で抜ける
 - `continue`：次のループへスキップする
